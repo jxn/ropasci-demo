@@ -1,0 +1,10 @@
+!!! 5
+html(lang='en')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript', src='/javascripts/jquery-2.0.3.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='/javascripts/main.js')
+  block body
+    div#navigation!= partial('navigation.jade')
